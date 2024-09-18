@@ -1,0 +1,127 @@
+/* Asegurar que el tamaño de la caja incluya los bordes y el relleno */
+* {
+    box-sizing: border-box;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Fuente personalizada */
+@font-face {
+    font-family: 'Simsonfont';
+    src: url('fonts/Simpsonfont.otf');
+}
+
+/* Estilo para los títulos */
+h1, h2 {
+    font-family: 'Simsonfont';
+    color: #000000;
+}
+
+/* Estilo para el header */
+header {
+    background: linear-gradient(135deg, #ffcc00, #ff9900);
+    color: #f76403;
+    padding: 10px;
+    box-shadow: 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+/* Estilo para los enlaces de navegación */
+nav a {
+    margin: 0px;
+    padding: 0px 0px;
+    background-color: #007bff;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para los contenedores */
+.container-fluid {
+    padding: px;
+}
+
+/* Estilo para aside, article, section */
+aside, article, section {
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las imágenes */
+aside .col-6 img, article .col-6 img, main .col-3 img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(121, 26, 26, 0.1);
+    width: 100%;
+    height: auto;
+    
+}
+
+/* Estilo para el contenido de los artículos */
+article section, main section {
+    text-align: left;
+    color: #000000;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #fcfbfb;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+/* Estilo para botones */
+.btn-custom {
+    background-color: #ff9900;
+    color: #fffefe;
+    border: none;
+    border-radius: 0px;
+    padding: 0px 0px;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #cc7a00;
+}
+
+/* Transiciones suaves */
+* {
+    transition: all 0.3s ease;
+}
+
+/* Márgenes de colores */
+.cajaAmarilla {
+    margin: 10px;
+    padding: 10px;
+    background-color: yellow;
+    background-color: #fffdfb;
+    border: 2px ;
+}
+/* Estilo para aside, section */
+ section {
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fad507;
+    border-radius: 1px;
+    box-shadow: 0 4px 8px rgba(226, 150, 36, 0.1);
+    border: 2px solid;
+}
